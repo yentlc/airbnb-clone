@@ -60,14 +60,16 @@ body {
   font-weight: 300;
   font-size: 1.5em;
   width: 600px;
+  margin-bottom: 0px;
 }
 
 .card{
-  width: 280px;
-  height: 400px;
+  width: 300px;
+  height: 510px;
   display: flex;
   flex-direction: column;
   position: relative;
+  margin: 10px;
 }
 .status{
   background: #e8e8e8;
@@ -89,12 +91,19 @@ font-size: 14px;
   margin: 0;
 }
 .card p{
-  margin: 0px;
+  margin: 1px;
 }
 .card .fa-star{
   color: #FE395C;
   font-size: 1.5em;
+  margin: 1px;
 }
 .card p{
-  font-size: 1.5em;
+  font-size: 1.4em;
+}
+.card .rating .gray{
+  color:#918E9B;
+}
+.bold{
+  font-weight: 700;
 }

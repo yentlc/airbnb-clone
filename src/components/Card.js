@@ -12,7 +12,7 @@ export default function Card() {
       </div>
       <p className='course'>Life lessons with Katie Zaferes</p>
       <p className='pricing'>
-        <b>From $136 </b>/ person
+        <span className='bold'>From $136 </span>/ person
       </p>
     </section>
   );
