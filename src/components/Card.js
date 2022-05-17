@@ -1,18 +1,26 @@
-export default function Card() {
+export default function Card({
+  img,
+  status,
+  rating,
+  reviewCount,
+  country,
+  title,
+  price,
+}) {
   return (
     <section className='card'>
-      <img src='/images/katie-zaferes.png' alt='katie zaferes' />
-      <h3 className='status'>SOLD OUT</h3>
+      <img src={img} alt='katie zaferes' />
+      <h3 className='status'>{status}</h3>
       <div className='rating'>
         <i class='fa-solid fa-star'></i>
-        <p className='rating'>5.0</p>
+        <p className='rating'>{rating}</p>
         <p className='gray'>
-          (30) <b>‧</b> USA
+          ({reviewCount}) <b>‧</b> {country}
         </p>
       </div>
-      <p className='course'>Life lessons with Katie Zaferes</p>
+      <p className='course'>{title}</p>
       <p className='pricing'>
-        <span className='bold'>From $136 </span>/ person
+        <span className='bold'>From ${price} </span>/ person
       </p>
     </section>
   );
