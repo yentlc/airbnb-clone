@@ -9,7 +9,7 @@ export default function Card({
 }) {
   return (
     <section className='card'>
-      <img src={img} alt='katie zaferes' />
+      <img src={`/images/${img}`} alt='katie zaferes' />
       <h3 className='status'>{status}</h3>
       <div className='rating'>
         <i class='fa-solid fa-star'></i>

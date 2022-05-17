@@ -9,10 +9,10 @@ function App() {
       <Navbar />
       <Heropage />
       <Card
-        img='/images/katie-zaferes.png'
+        img='katie-zaferes.png'
         status='SOLD OUT'
         rating='5.0'
-        reviewCount='6'
+        reviewCount={6} //expresion para dsp poder hacer calculos o sumar.
         country='USA'
         title='Life Lessons with Katie Zaferes'
         price='136'
