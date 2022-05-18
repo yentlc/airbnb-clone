@@ -65,12 +65,19 @@ body {
 
 .card{
   width: 320px;
-  height : 550px;
+  height : 560px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   position: relative;
   margin: 10px;
+  background-color: #fdfdff;
+  border-radius: 15px;
+  box-shadow:  5px 5px 10px #b4b4ba,
+             -5px -5px 10px #ffffff;
+}
+.text-section{
+  padding: 20px;
 }
 .status{
   background: #e8e8e8;
@@ -96,11 +103,11 @@ font-size: 14px;
 }
 .card .fa-star{
   color: #FE395C;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 1px;
 }
 .card p{
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .card .rating .gray{
   color:#918E9B;
@@ -112,9 +119,10 @@ font-size: 14px;
   width: 85%;
   display: flex;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 40px;
   overflow-x: auto;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 50px;
 }
