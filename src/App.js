@@ -9,7 +9,8 @@ function App() {
     return (
       <Card
         key={card.id} //poner un id a cada carta
-        card={card}
+        //card={card} // pasamos el item completo como una prop
+        {...card} // spread operator: pasamos directamente todas las keys del item 0
       />
     );
   });

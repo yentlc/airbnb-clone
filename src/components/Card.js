@@ -1,4 +1,4 @@
-export default function Card({ card }) {
+export default function Card(card) {
   let spots;
   if (card.openSpots == 0) {
     spots = 'SOLD OUT';
